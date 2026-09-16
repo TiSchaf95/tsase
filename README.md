@@ -1,7 +1,7 @@
 Follow installation instructions on https://theory.cm.utexas.edu/tsase/index.html
 
 Minimal example python script for constrained, fixed cell ssNEB calculation:
-
+'''python
 import numpy as np
 from ase.io import read
 from deepmd.calculator import DP
@@ -27,3 +27,4 @@ pres=np.identity(3)*10 # Target Pressure in GPa
 band = neb.ssneb(images[0], images[-1], numImages = len(images),  k=5, express=pres, fixstrain=fix,  method = 'ci', nebimages=images)
 opt = neb.fire_ssneb(band, maxmove =0.02, dtmax = 0.01, dt=0.001)
 opt.minimize(forceConverged=0.05, maxIterations =3000)
+'''
