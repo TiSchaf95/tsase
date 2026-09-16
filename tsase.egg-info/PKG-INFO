@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: tsase
+Version: 1.0
+Summary: Library based upon ASE for transition state theory calculations.
+Home-page: http://www.henkelmanlab.org
+Author: Henkelman Research Group
+Author-email: henkelman@utexas.edu
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: summary
