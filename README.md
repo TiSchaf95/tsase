@@ -5,7 +5,7 @@ This repository contains Python code based on the **Atomic Simulation Environmen
 ## Installation
 
 Please follow the detailed installation instructions on the official website:
-👉 [TSASE Installation Guide]([https://utexas.edu](https://theory.cm.utexas.edu/tsase/index.html))
+👉 [TSASE Installation Guide]([https://theory.cm.utexas.edu/tsase/index.html])
 
 ## Usage Example
 
